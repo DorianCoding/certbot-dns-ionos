@@ -1,11 +1,11 @@
 from setuptools import setup
 from setuptools import find_packages
 
-version = '2024.10.19'
+version = '2024.11.09'
 
 install_requires = [
-    "acme>=1.8.0",
-    "certbot>=2.11.0",
+    "acme>=3.0.0",
+    "certbot>=3.0.0",
     "setuptools",
     "requests",
     "mock",
@@ -24,7 +24,7 @@ setup(
     version=version,
     description="IONOS DNS Authenticator plugin for Certbot",
     long_description=long_description,
-    long_description_content_type="text/x-rst",
+    long_description_content_type="text/markdown",
     url="https://github.com/helgeerbe/certbot-dns-ionos",
     author="Helge Erbe",
     author_email="helge@erbehome.de",
